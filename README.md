@@ -1,6 +1,6 @@
-# Machine Learning Project Template
+# Machine Learning Project Hull
 
-A general template for machine learning projects.
+A general hull for machine learning projects.
 
 ## Install uv
 
