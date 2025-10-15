@@ -1,7 +1,7 @@
 [project]
-name = "template"
+name = "hull"
 version = "0.1.0"
-description = "A general purpose machine learning project template."
+description = "A general purpose machine learning project hull."
 readme = "README.md"
 authors = [
     { name = "Will Rice", email = "wrice20@gmail.com" }
@@ -20,7 +20,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.ruff.lint.isort]
-known-first-party = ["template"]
+known-first-party = ["hull"]
 
 [tool.ruff.lint]
 select = ["C", "E", "F", "I", "W", "D", "N", "B"]
@@ -41,4 +41,4 @@ follow_imports_for_stubs = true
 exclude = [".venv"]
 
 [project.scripts]
-train = "template.scripts.train:main"
+train = "hull.scripts.train:main"
